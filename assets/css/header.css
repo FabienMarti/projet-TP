@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navTop{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+}
+#navTop h1{
+    padding-top: 50px;
+    text-align: center;
+}
+nav li{
+    background-color: red;
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+}
+nav li:last-child{
+    float: right ;
+}
