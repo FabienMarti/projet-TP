@@ -3,43 +3,32 @@
 
     <head>
         <meta charset="UTF-8" />
-        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="assets/css/index.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/bootstrap/bootstrap.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/header.css" rel="stylesheet" type="text/css" />
         <title>Accueil</title>
     </head>
 
     <body>
-        <header>
-            <div id="navTop">
-                <h1>DINO</h1>
+        <header id="headerBG" class="container-fluid bg-primary">
+            <div id="mainTitle" class="text-center d-flex flex-column justify-content-center mx-auto text-white">
+                <p class="h2">DINOSAURES</p>
             </div>
-            <div id="frescoParent">
-                <div class="noMeso">
-                    <p>Permien</p>
-                </div>
-                <div class="meso">
-                    <p>Trias</p>
-                </div>
-                <div class="meso">
-                    <p>Jurassique</p>
-                </div>
-                <div class="meso">
-                    <p>Crétacé</p>
-                </div>
-                <div class="noMeso">
-                    <p>Paléogène</p>
-                </div>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li>Découvrir</li>
-                    <li><a href="dinoList.html">Liste des Dinosaures</a></li>
-                    <li>Forum</li>
-                    <li>Quizz</li>
-                    <li>Contribuer</li>
-                    <li>Rechercher</li>
-                </ul>
+            <nav id="navBar" class="row text-center">
+                <a href="index.html" class="col-md-auto p-1 m-1 border rounded">
+                    <image src="assets/img/hut.png" />
+                </a>
+                <a href="discover.html" class="col-md-auto p-3 m-1 bg-danger border rounded text-white">DÉCOUVRIR</a>
+                <a href="dinoList.html" class="col-md-auto p-3 m-1 bg-danger border rounded text-white">LISTE DES DINOSAURES</a>
+                <a href="contribute.html" class="col-md-auto p-3 m-1 bg-danger border rounded text-white">CONTRIBUER</a>
+                <a href="quizz.html" class="col-md-auto p-3 m-1 bg-danger border rounded text-white">QUIZZ</a>
+                <a href="forum.html" class="col-md-auto p-3 m-1 bg-danger border rounded text-white">FORUM</a>
+                <!-- barre de recherche -->
+                <form class="form-inline row m-1 ml-auto my-md-0">
+                    <input class="form-control col-8" type="search" placeholder="Rechercher" aria-label="Search">
+                    <button class="btn btn-secondary col-4" type="submit">Rechercher</button>
+                </form>
             </nav>
         </header>
     </body>

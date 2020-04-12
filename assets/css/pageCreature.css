@@ -1,6 +1,9 @@
-.contentTitle{
-    text-align: center;
-    font-size: 30px;
-    margin-top: 30px;
-    text-decoration: underline;
+#mainTitle{
+    height: 100px;
+}
+#navBar a{
+    text-decoration: none;
+}
+#headerBG{
+    background-image: url('../img/DinosaurBannerBG.png');
 }
