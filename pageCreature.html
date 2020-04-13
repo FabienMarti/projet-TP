@@ -4,8 +4,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link href="assets/css/pageCreature.css" rel="stylesheet" type="text/css" />
+
         <link href="assets/css/bootstrap/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/pageCreature.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/header.css" rel="stylesheet" type="text/css" />
         <title>Tyrannosaurus</title>
     </head>
@@ -30,7 +31,6 @@
                     <input class="form-control col-8" type="search" placeholder="Rechercher" aria-label="Search">
                     <button class="btn btn-secondary col-4" type="submit">Rechercher</button>
                 </form>
-
             </nav>
             <nav aria-label="breadcrumb" id="arianaRope" class="row">
                 <ol class="breadcrumb">
@@ -45,9 +45,9 @@
             <div class="container-fluid">
                 <h1 class="text-center">Tyrannosaurus Rex (Roi des lézards tyrans)</h1>
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-md-2 text-center border">
                         <p class="h5 text-center">Où a-t-on trouvé Tyrannosaure ?</p>
-                        <img src="assets/img/LocalTyrannosaurus.png" style="width: 100%" />
+                        <img src="assets/img/LocalTyrannosaurus.png" class="img-fluid mapDiv" />
                         <p class="h5 mt-5">Derniers sujets en rapport :</p>
                         <ul class="border" id="recentPostList">
                             <li><a href="#">Le tyrannosaure pouvait-il voler ?</a></li>
@@ -58,12 +58,15 @@
                             <li>28/01/2020</li>
                         </ul>
                     </div>
-                    <figure class="col-md-4">
-                        <img class="mw-100" src="assets/img/Tyrannosaurus2.png" />
-                        <figcaption class="text-right"><a href="https://www.businessinsider.fr/us/what-paleontologists-got-wrong-about-tyrannosaurus-rex-2019-3">Source : www.businessinsider.fr</a>
-                        </figcaption>
-                    </figure>
-                    <div class="col-md-5">
+                    <div class="col-md-4 border">
+                        <figure class="text-center">
+                            <img class="img-fluid imgDiv" src="assets/img/Tyrannosaurus2.png" />
+                            <figcaption class="text-right">
+                                <a href="https://www.businessinsider.fr/us/what-paleontologists-got-wrong-about-tyrannosaurus-rex-2019-3">Source : www.businessinsider.fr</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-5 border m-auto">
                         <p class="h5 text-center">Description</p>
                         <p>Tyrannosaurus rex est l'un des plus grands carnivores ayant vécu sur Terre. Le plus grand spécimen complet (mais pas le plus grand spécimen) découvert à ce jour, répertorié
                             sous le code FMNH PR2081 et
@@ -80,9 +83,8 @@
                             crénelées comme des couteaux à
                             viande. On suppose qu'il pouvait déplacer l'un de ses maxillaires vers l'arrière.</p>
                     </div>
-                    <div class="col-md-1 ml-md-auto border">
+                    <div class="col-md-1 text-center border">
                         <p class="h5 text-center">Ils ont vécus dans la même période :</p>
-                        <div><img src="assets/img/RexHead.png" style="width:100px; height:100px;" class="m-3 border border-danger" /></div>
                         <div><img src="assets/img/RexHead.png" style="width:100px; height:100px;" class="m-3 border border-danger" /></div>
                         <div><img src="assets/img/RexHead.png" style="width:100px; height:100px;" class="m-3 border border-danger" /></div>
                         <div><img src="assets/img/RexHead.png" style="width:100px; height:100px;" class="m-3 border border-danger" /></div>
