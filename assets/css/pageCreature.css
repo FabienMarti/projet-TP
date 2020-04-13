@@ -2,7 +2,7 @@
     list-style: none;
 }
 #recentPostList li:nth-child(odd){
-text-align: left;
+    text-align: left;
 }
 #recentPostList li:nth-child(even){
     text-align: right;
