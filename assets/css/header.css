@@ -11,3 +11,14 @@
 #headerBG{
     background-image: url('../img/DinosaurBannerBG.png');
 }
+.breadcrumb {
+    padding: 1px 15px !important;
+    margin-bottom: 2px !important;
+    margin-left: 5px !important;
+}
+
+@media (max-width: 768px){
+    #headerBG{
+    background-image: url('../img/DinosaurBannerBGxs.png');
+}
+}
