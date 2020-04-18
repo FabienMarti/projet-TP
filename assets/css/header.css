@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 #headerBG{
-    background-image: url('../img/DinosaurBannerBG.png');
+    background-image: url('../img/dinosaurBannerBG.png');
 }
 .breadcrumb {
     padding: 1px 15px !important;
@@ -36,7 +36,7 @@ background-color: #7FC64E;
 }
 @media (max-width: 768px){
     #headerBG{
-    background-image: url('../img/DinosaurBannerBGxs.png');
+    background-image: url('../img/dinosaurBannerBGxs.png');
     }
 }
 
