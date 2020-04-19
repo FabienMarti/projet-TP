@@ -1,0 +1,18 @@
+#diploHead, #diploBubble, #diploSpeech{
+    display:none;
+    float: left;
+}
+#changeText{
+    font-size: 20px;
+}
+#diploSpeech{
+    width: 175px;
+    height:150px;
+    margin-top: 270px;
+    margin-left: 700px;
+    position: absolute;
+}
+#diploBubble{
+    height: 250px; 
+    margin-top:200px;
+}
