@@ -9,5 +9,6 @@
 }
 
 .imageAutoSize{
-    
+    width : 200px;
+    height: auto;
 }
