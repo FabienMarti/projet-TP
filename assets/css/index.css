@@ -16,3 +16,13 @@
     height: 250px; 
     margin-top:200px;
 }
+
+#recentPostList li{
+    list-style: none;
+}
+#recentPostList li:nth-child(odd){
+    text-align: left;
+}
+#recentPostList li:nth-child(even){
+    text-align: right;
+}
