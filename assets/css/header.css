@@ -10,6 +10,7 @@
 }
 #headerBG{
     background-image: url('../img/dinosaurBannerBG.png');
+    height: 150px;
 }
 .breadcrumb {
     padding: 1px 15px !important;
