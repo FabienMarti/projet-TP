@@ -6,9 +6,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
         <link href="assets/css/index.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/header.css" rel="stylesheet" type="text/css" />
-        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-        <title>Accueil</title>
+        <!-- On vérifie que la variable $pageTitle est définie sur la page en question, sinon on affiche 'Non-Défini' -->
+        <title><?= isset($pageTitle) ? $pageTitle : 'Non-Défini' ?></title>
     </head>
     <body>
         <header>
@@ -31,8 +30,8 @@
                     </div>
                     <button class="btn btn-outline-dark bg-info my-2">Connexion</button>
                 </div> -->
-                <div class="col-md-2 offset-md-2 border border-dark rounded bg-white text-center">
-                    <p>Connexion</p>
+                <div class="col-md-2 offset-md-2 my-auto text-center">
+                    <button class="btn btn-primary"><a href="subscription.php" class="text-white">S'inscrire</a></button>
                 </div>
             </div>
             <!--NavBar-->
@@ -44,34 +43,22 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.php">Accueil<span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php"><i class="fas fa-home"></i></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="dinoList.php">Liste des dinosaures</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Découvrir
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                                <a class="dropdown-item" href="#">Paléonthologie</a>
-                                <a class="dropdown-item" href="#">Herbivores</a>
-                                <a class="dropdown-item" href="#">Carnivores</a>
-                                <a class="dropdown-item" href="#">Animaux Volants</a>
-                                <a class="dropdown-item" href="#">Animaux Marins</a>
-                                <a class="dropdown-item" href="#">Insectes</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
+                            <a class="nav-link" href="discover.php">Découvrir</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Contribuer
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                                <a class="dropdown-item" href="#">Déposer un article</a>
-                                <a class="dropdown-item" href="#">Faire un don</a>
+                                <a class="dropdown-item" href="addDino.php">Déposer un article</a>
+                                <a class="dropdown-item" href="contribute.php">Faire un don</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -79,15 +66,12 @@
                                 Jeux
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                                <a class="dropdown-item" href="#">Quizz</a>
+                                <a class="dropdown-item" href="quiz.php">Quiz</a>
                                 <a class="dropdown-item" href="#">Générateur de Dinom</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quizz</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Forum</a>
+                            <a class="nav-link" href="forum.php">Forum</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">

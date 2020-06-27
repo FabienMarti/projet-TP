@@ -1,4 +1,7 @@
-<?php include 'view/parts/header.php' ?>
+<?php 
+$pageTitle = 'Accueil';
+include 'view/parts/header.php'; 
+?>
     <main class="container-fluid mt-5">
         <div class="row">
             <!--Les derniers posts-->
