@@ -3,7 +3,7 @@
     include 'view/parts/header.php';
     include 'view/parts/functions.php';
     include 'controller/subscriptionController.php';
-    generateBreadcrumb(array('index.php' => 'Referosoria', 'final' => 'Inscription'));
+    generateBreadcrumb(array('index.php' => 'Referosauria', 'final' => 'Inscription'));
 ?>
 <h2 class="text-center"><u>Inscription</u></h2>
 <form class="container border border-dark" action="subscription.php" method="POST">

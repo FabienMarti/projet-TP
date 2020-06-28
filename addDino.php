@@ -2,7 +2,7 @@
   $pageTitle = 'Ajouter une créature';
   include 'view/parts/header.php';
   include 'view/parts/functions.php'; 
-  generateBreadcrumb(array('index.php' => 'Referosoria', 'final' => $pageTitle));
+  generateBreadcrumb(array('index.php' => 'Referosauria', 'final' => $pageTitle));
 ?>
 <main class="container mt-2">
     <h2 class="text-center">Ajouter une Créature</h2>
