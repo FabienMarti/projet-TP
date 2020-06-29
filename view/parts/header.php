@@ -10,26 +10,12 @@
         <title><?= isset($pageTitle) ? $pageTitle : 'Non-Défini' ?></title>
     </head>
     <body>
-        <header>
+        <header class="container-fluid">
             <!--BG + Titre + Vignette profil-->
             <div id="headerBG" class="row">
                 <div class="col-md-4 offset-md-4 text-center my-auto text-white">
                     <h1>REFEROSAURIA</h1>
                 </div>
-                <!-- <div class="col-md-2 offset-md-2 border border-dark rounded bg-white text-center">
-                    <div class="row">
-                        <div class="col">
-                            <img class="border border-dark rounded my-2" alt="Image de Ben le diplo" src="assets/img/dipHead.jpg" />
-                        </div>
-                        <div class="col m-auto">
-                            <div class="border border-dark rounded mr-4">
-                                <p>Nom : Ben</p>
-                                <p>Rang : Diplo</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="btn btn-outline-dark bg-info my-2">Connexion</button>
-                </div> -->
                 <div class="col-md-2 offset-md-2 my-auto text-center">
                     <button class="btn btn-primary"><a href="subscription.php" class="text-white">S'inscrire</a></button>
                 </div>
