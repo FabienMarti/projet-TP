@@ -1,7 +1,7 @@
 <?php
     //Générateur de fil d'ariane semi-automatique (tableau à remplir sur chaque page)
     function generateBreadcrumb($crumbsArray){?>
-    <nav class="bg-light row pl-3" aria-label="breadcrumb">
+    <nav class="bg-light" aria-label="breadcrumb">
         <ol class="breadcrumb">
             <?php
                 foreach ($crumbsArray as $url => $name) {

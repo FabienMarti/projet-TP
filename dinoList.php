@@ -4,7 +4,6 @@
     include 'view/parts/functions.php';
     generateBreadcrumb(array('index.php' => 'Referosauria', 'final' => $pageTitle));
 ?>
-<?php/*  include 'GTS.php'  */?>
         <section class="container">
             <div class="row text-center">
             <div class="border border-dark m-auto">
@@ -27,4 +26,4 @@
                 </div> -->
             </div>
         </section>
-        <?php include 'view/parts/footer.php' ?>
+<?php include 'view/parts/footer.php' ?>

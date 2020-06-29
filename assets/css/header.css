@@ -13,7 +13,6 @@
     height: 150px;
 }
 .breadcrumb {
-    padding: 1px 15px !important;
     margin-bottom: 2px !important;
     margin-left: 5px !important;
 }
@@ -34,6 +33,9 @@ background-color: #34B2C9;
 }
 #cretaGTS{
 background-color: #7FC64E;
+}
+footer{
+    height: 150px;
 }
 @media (max-width: 768px){
     #headerBG{
