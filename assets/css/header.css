@@ -35,7 +35,7 @@ background-color: #34B2C9;
 background-color: #7FC64E;
 }
 footer{
-    height: 150px;
+    height: 50px;
 }
 @media (max-width: 768px){
     #headerBG{

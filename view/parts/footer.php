@@ -33,15 +33,15 @@
   </div>
 </div>   
 <!-- Footer -->
-<footer class="container-fluid bg bg-secondary mt-5">
-    <div class="row">
-        <p class="col-md-2 my-auto">© <?= date('Y') ?> Referosauria</p>
+<footer class="container-fluid bg bg-secondary mt-5 text-white">
+    <div class="row text-white">
+        <p class="col-md-2">© <?= date('Y') ?> Referosauria</p>
         <div class="offset-md-2 col-md-8 text-right">
             <div class="row">
-                <p class="col-md-3 my-auto"><a onclick="changeFooterModalContent(0)">Politique de confidentialité</a></p>
-                <p class="col-md-3 my-auto"><a onclick="changeFooterModalContent(1)">Conditions générales</a></p>
-                <p class="col-md-3 my-auto"><a onclick="changeFooterModalContent(2)">Accessibilité</a></p>
-                <p class="col-md-3 my-auto"><a onclick="changeFooterModalContent(3)">À propos de referosauria</a></p>
+                <p class="col-md-3"><a onclick="changeFooterModalContent(0)">Politique de confidentialité</a></p>
+                <p class="col-md-3"><a onclick="changeFooterModalContent(1)">Conditions générales</a></p>
+                <p class="col-md-3"><a onclick="changeFooterModalContent(2)">Accessibilité</a></p>
+                <p class="col-md-3"><a onclick="changeFooterModalContent(3)">À propos de referosauria</a></p>
             </div>
         </div>
     </div>

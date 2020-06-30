@@ -6,37 +6,37 @@
 ?>
 <main class="container-fluid">
   <!-- Menu Nav local -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand d-md-none" href="#">Découvrir</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" onclick="changeCategory(0)">La Paléonthologie</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" onclick="changeCategory(1)">Les Dinosaures</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" onclick="changeCategory(2)">Créatures Océaniques</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" onclick="changeCategory(3)">Réptiles Volants</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" onclick="changeCategory(4)">Les Insectes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" onclick="changeCategory(5)">Les Grandes Extinctions</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" onclick="changeCategory(6)">La Terre d'une autre époque</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand d-md-none" href="#">Découvrir</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" onclick="changeCategory(0)">La Paléonthologie</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="changeCategory(1)">Les Dinosaures</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="changeCategory(2)">Créatures Océaniques</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="changeCategory(3)">Réptiles Volants</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="changeCategory(4)">Les Insectes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="changeCategory(5)">Les Grandes Extinctions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="changeCategory(6)">La Terre d'une autre époque</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 <!-- La Paléonthologie -->
 <section id="paleonthology">
   <div style="height: 100vh" class="bg bg-danger"></div>
@@ -105,4 +105,4 @@
     }
   }
 </script>
-<?php include 'view/parts/footer.php' ?>
+<?php include 'view/parts/footer.php'; ?>

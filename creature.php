@@ -3,18 +3,17 @@
     $bdd = new PDO('mysql:host=localhost;dbname=referosauria', 'root', '');
     //selection de la créature via l'id
     $id = 1;
-    //requete (query) 
+    //requete (query)
     $response = $bdd->query('SELECT * FROM creatures WHERE id=' . $id);
     //fetch = rapporter, on demande a la fonction d'aller chercher les données
     $data = $response->fetch();
     //request pour le titre avec la BDD
-    $pageTitle = $data['titre']; 
+    $pageTitle = $data['titre'];
     include 'view/parts/header.php';
     include 'view/parts/functions.php';
     generateBreadcrumb(array('index.php' => 'Referosauria', 'dinoList.php' => 'Liste des dinosaures', 'final' => $pageTitle)); 
 ?>
 <section class="container-fluid my-2">
-    <div>
         <h1 class="text-center my-5"><u><?= $data['titre'] ?></u></h1>
         <div class="row">
             <div class="col-md-2 text-center border">
@@ -45,6 +44,5 @@
                 <div><img src="assets/img/rexHead.png" style="width:100px; height:100px;" class="m-3 border border-danger" /></div>
             </div>
         </div>
-    </div>
 </section>
 <?php include 'view/parts/footer.php' ?>

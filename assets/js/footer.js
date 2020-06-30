@@ -14,7 +14,7 @@ function changeFooterModalContent(modal){
             modalTitle.innerHTML = 'Conditions Générales';
             modalContentArray[1].style.display = 'block';
         break;
-        case 2: 
+        case 2:
             modalTitle.innerHTML = 'Accessibilité';
             modalContentArray[2].style.display = 'block';
         break;

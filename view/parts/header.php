@@ -17,7 +17,7 @@
                     <h1>REFEROSAURIA</h1>
                 </div>
                 <div class="col-md-2 offset-md-2 my-auto text-center">
-                    <button class="btn btn-primary"><a href="subscription.php" class="text-white">S'inscrire</a></button>
+                    <a href="registration.php" class="text-white"><button class="btn btn-primary">S'inscrire</button></a>
                 </div>
             </div>
             <!--NavBar-->
