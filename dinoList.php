@@ -1,7 +1,7 @@
 <?php 
     $pageTitle = 'Liste des dinosaures';
-    include 'view/parts/header.php';
-    include 'view/parts/functions.php';
+    include 'views/parts/header.php';
+    include 'views/parts/functions.php';
     generateBreadcrumb(array('index.php' => 'Referosauria', 'final' => $pageTitle));
 ?>
         <section class="container">
@@ -26,4 +26,4 @@
                 </div> -->
             </div>
         </section>
-<?php include 'view/parts/footer.php' ?>
+<?php include 'views/parts/footer.php' ?>

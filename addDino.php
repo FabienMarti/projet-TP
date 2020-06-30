@@ -1,7 +1,7 @@
 <?php 
   $pageTitle = 'Ajouter une créature';
-  include 'view/parts/header.php';
-  include 'view/parts/functions.php'; 
+  include 'views/parts/header.php';
+  include 'views/parts/functions.php'; 
   generateBreadcrumb(array('index.php' => 'Referosauria', 'final' => $pageTitle));
 ?>
 <main class="container mt-2">
@@ -26,4 +26,4 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
 </main>
-<?php include 'view/parts/footer.php' ?>
+<?php include 'views/parts/footer.php' ?>

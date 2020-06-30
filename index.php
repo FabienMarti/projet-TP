@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = 'Accueil';
-include 'view/parts/header.php'; 
+include 'views/parts/header.php'; 
 ?>
     <main class="container-fluid mt-5">
         <div class="row">
@@ -84,4 +84,4 @@ include 'view/parts/header.php';
             </div>
         </div>
     </section>
-<?php include 'view/parts/footer.php' ?>
+<?php include 'views/parts/footer.php' ?>
