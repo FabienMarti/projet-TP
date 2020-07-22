@@ -1,5 +1,5 @@
 <?php 
-$pageTitle = 'Accueil';
+
 include 'views/parts/header.php'; 
 ?>
     <main class="container-fluid mt-5">

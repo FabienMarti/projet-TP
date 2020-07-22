@@ -10,7 +10,7 @@
         <title><?= isset($pageTitle) ? $pageTitle : 'Non-Défini' ?></title>
     </head>
     <body>
-        <header class="container-fluid">
+        <header class="container-fluid p-0">
             <!--BG + Titre + Vignette profil-->
             <div id="headerBG" class="row">
                 <div class="col-md-4 offset-md-4 text-center my-auto text-white">

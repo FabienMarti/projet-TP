@@ -1,5 +1,5 @@
 <?php
-$regexList = array('name' => '%^[\p{L}]{1}[\' \-\p{L}]+$%', 'username' => '%^[a-zA-Z]\w*$%', 'password' => '%^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$%');
+$regexList = array('username' => '%^[A-ÿ0-9_\-]{2,30}$%', 'password' => '%^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$%');
 $formErrors = array();
 
 if(isset($_POST['validateForm'])){
@@ -7,7 +7,7 @@ if(isset($_POST['validateForm'])){
 
         if(!empty($_POST['email'])){
             if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
-                $emailAdress = htmlspecialchars($_POST['email']);
+                $email = htmlspecialchars($_POST['email']);
             }else{
                 $formErrors['email'] = 'Merci de respecter le format d\'e-mail valide.';
             }
@@ -17,7 +17,7 @@ if(isset($_POST['validateForm'])){
 
         if(!empty($_POST['confirmEmail'])){
             if(filter_var($_POST['confirmEmail'], FILTER_VALIDATE_EMAIL)){
-                $emailAdress = htmlspecialchars($_POST['confirmEmail']);
+                $confirmEmail = htmlspecialchars($_POST['confirmEmail']);
             }else{
                 $formErrors['confirmEmail'] = 'Merci de respecter le format d\'e-mail valide.';
             }
@@ -27,7 +27,7 @@ if(isset($_POST['validateForm'])){
 
         if(!empty($_POST['username'])){
             if(preg_match($regexList['username'], $_POST['username'])){
-                $emailAdress = htmlspecialchars($_POST['username']);
+                $username = htmlspecialchars($_POST['username']);
             }else{
                 $formErrors['username'] = 'Merci de respecter le format lettres, numéros sans caractères spéciaux.';
             }
@@ -49,4 +49,4 @@ if(isset($_POST['validateForm'])){
             $formErrors['validate'] = 'Pour finaliser votre inscription, veuillez accepter les CGU';
         }
     }
-}?>
+}
