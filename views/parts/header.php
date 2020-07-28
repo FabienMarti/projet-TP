@@ -22,7 +22,7 @@
                 </div>
             </div>
             <!--NavBar-->
-            <nav class="navbar navbar-expand-md navbar-light bg-secondary">
+            <nav class="navbar navbar-expand-md navbar-light">
                 <a class="navbar-brand d-md-none" href="#">Menu</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">

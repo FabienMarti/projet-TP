@@ -7,12 +7,12 @@
     include 'views/parts/functions.php';
     generateBreadcrumb(array('index.php' => 'Referosauria', 'final' => $pageTitle));
 ?>
-<section class="container-fluid">
+<section class="container-fluid p-0">
 <!-- Filtrage recherche -->
-    <div class="text-center bg bg-secondary h-25">
-        <a id="filterArrow" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-arrow-down"></i></a>   
+    <div id="filterArrow" class="text-center h-25">
+        <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-arrow-down"></i></a>   
     </div>
-    <div class="collapse" id="collapseExample">
+    <div class="collapse p-5" id="collapseExample">
         <form method="GET" action="dinoList.php">
             <div class="row my-1">
                 <!-- Filtrage période -->
@@ -50,9 +50,9 @@
             </div>
             <div class="row my-1">
                 <!-- champ de recherche -->
-                <input class="form-control col-8" type="search" placeholder="Rechercher" name="search" />
+                <input class="form-control offset-8 col-2" type="search" placeholder="Rechercher" name="search" />
                 <!-- envoi du formulaire -->
-                <button type="submit" class="btn btn-primary col-4" name="sendFilter">Rechercher</button>
+                <button type="submit" class="btn btn-primary col-2" name="sendFilter">Rechercher</button>
             </div>
         </form>
     </div>

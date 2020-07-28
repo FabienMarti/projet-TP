@@ -5,16 +5,17 @@
 #mainTitle{
     height: 195px;
 }
-#navBar a{
-    text-decoration: none;
+nav{
+    background-color: #697A21 !important;
 }
+
 #headerBG{
     background-image: url('../img/dinosaurBannerBG.png');
     height: 150px;
 }
 .breadcrumb {
-    margin-bottom: 2px !important;
-    margin-left: 5px !important;
+    margin-bottom: 0px !important;
+    background-color: #547AA5;
 }
 .buttonBG{
     background-color: rgba(0, 255, 0, 0.1);;
@@ -33,9 +34,6 @@ background-color: #34B2C9;
 }
 #cretaGTS{
 background-color: #7FC64E;
-}
-footer{
-    height: 50px;
 }
 @media (max-width: 768px){
     #headerBG{
