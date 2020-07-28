@@ -9,8 +9,8 @@
 ?>
 <section class="container-fluid">
 <!-- Filtrage recherche -->
-    <div class="text-center bg bg-primary h-25">
-        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></a>   
+    <div class="text-center bg bg-secondary h-25">
+        <a id="filterArrow" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-arrow-down"></i></a>   
     </div>
     <div class="collapse" id="collapseExample">
         <form method="GET" action="dinoList.php">
